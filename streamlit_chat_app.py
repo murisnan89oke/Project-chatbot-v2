@@ -5,8 +5,8 @@ from google import genai  # For interacting with the Google Gemini API
 # --- 1. Page Configuration and Title ---
 
 # Set the title and a caption for the web page
-st.title("💬 Staff Robot")
-st.caption("Obrolan ramah dan sederhana")
+st.title("💬 StaffBOT V 1.0-Kepegawaian PNUP")
+st.caption("Obrolan Ramah dan Sederhana")
 
 # --- 2. Sidebar for Settings ---
 
