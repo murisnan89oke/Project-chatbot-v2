@@ -6,7 +6,7 @@ from google import genai  # For interacting with the Google Gemini API
 
 # Set the title and a caption for the web page
 st.title("💬 Staff Robot")
-st.caption("A simple and friendly chat using Google's Gemini Flash model")
+st.caption("Obrolan ramah dan sederhana")
 
 # --- 2. Sidebar for Settings ---
 
@@ -17,7 +17,7 @@ with st.sidebar:
     
     # Create a text input field for the Google AI API Key.
     # 'type="password"' hides the key as the user types it.
-    google_api_key = st.text_input("Google AI API Key", type="password")
+    google_api_key = st.text_input("AIzaSyAINAV3Sy9nU-U1jnOQ7QjGQG0aTh8CFwo", type="password")
     
     # Create a button to reset the conversation.
     # 'help' provides a tooltip that appears when hovering over the button.
